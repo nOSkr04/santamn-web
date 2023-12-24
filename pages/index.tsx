@@ -31,8 +31,8 @@ export default function Home() {
     } else {
       return (
         <h1 className="text-center text-white text-xl">
-          {checkNumberDigits(days)}:{checkNumberDigits(hours)}:
-          {checkNumberDigits(minutes)}:{checkNumberDigits(seconds)}
+          {checkNumberDigits(days)} өдөр {checkNumberDigits(hours)} цаг
+          {checkNumberDigits(minutes)} минут {checkNumberDigits(seconds)} секунд
         </h1>
       );
     }
@@ -49,8 +49,8 @@ export default function Home() {
     } else {
       return (
         <h1 className="text-center text-white text-4xl self-center">
-          {checkNumberDigits(days)}:{checkNumberDigits(hours)}:
-          {checkNumberDigits(minutes)}:{checkNumberDigits(seconds)}
+          {checkNumberDigits(days)} өдөр {checkNumberDigits(hours)} цаг
+          {checkNumberDigits(minutes)} минут {checkNumberDigits(seconds)} секунд
         </h1>
       );
     }
