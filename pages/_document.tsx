@@ -7,11 +7,11 @@ export default function Document() {
         <meta property="og:title" content="Santa.mn" />
         <meta
           property="og:image"
-          content="https://evseg.s3.ap-southeast-1.amazonaws.com/logo.png"
+          content="https://evseg.s3.ap-southeast-1.amazonaws.com/gg.png"
         />
         <meta
           property="og:image"
-          content="https://evseg.s3.ap-southeast-1.amazonaws.com/logo.png"
+          content="https://evseg.s3.ap-southeast-1.amazonaws.com/gg.png"
         />
         <meta
           name="description"
