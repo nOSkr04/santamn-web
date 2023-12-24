@@ -55,6 +55,15 @@ export default function Home() {
   };
   return (
     <div style={{ position: "relative" }}>
+      <meta property="og:title" content="Santa.mn" />
+      <meta
+        property="og:image"
+        content="https://evseg.s3.ap-southeast-1.amazonaws.com/gg.png"
+      />
+      <meta
+        name="description"
+        content="Хүсэн хүлээсэн шинэ он хаяанд ирж Santa.mn хүн бүрд бэлэгтэй өндөг авчирлаа"
+      />
       {/* mobile */}
       <div className="lg:hidden">
         <div
