@@ -20,6 +20,7 @@ export default function Home() {
   };
 
   const renderer = ({
+    days,
     hours,
     minutes,
     seconds,
@@ -30,8 +31,8 @@ export default function Home() {
     } else {
       return (
         <h1 className="text-center text-white text-xl">
-          {checkNumberDigits(hours)}:{checkNumberDigits(minutes)}:
-          {checkNumberDigits(seconds)}
+          {checkNumberDigits(days)}:{checkNumberDigits(hours)}:
+          {checkNumberDigits(minutes)}:{checkNumberDigits(seconds)}
         </h1>
       );
     }
@@ -41,14 +42,15 @@ export default function Home() {
     minutes,
     seconds,
     completed,
+    days,
   }: CountdownRenderProps) => {
     if (completed) {
       return <Completionist />;
     } else {
       return (
         <h1 className="text-center text-white text-4xl self-center">
-          {checkNumberDigits(hours)}:{checkNumberDigits(minutes)}:
-          {checkNumberDigits(seconds)}
+          {checkNumberDigits(days)}:{checkNumberDigits(hours)}:
+          {checkNumberDigits(minutes)}:{checkNumberDigits(seconds)}
         </h1>
       );
     }
