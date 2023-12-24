@@ -57,7 +57,7 @@ export default function Home() {
     <div style={{ position: "relative" }}>
       <meta property="og:title" content="Santa.mn" />
       <meta
-        property="og:image"
+        property="og:image:secure"
         content="https://evseg.s3.ap-southeast-1.amazonaws.com/gg.png"
       />
       <meta
