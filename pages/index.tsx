@@ -31,7 +31,7 @@ export default function Home() {
     } else {
       return (
         <h1 className="text-center text-white text-xl">
-          {checkNumberDigits(days)} өдөр {checkNumberDigits(hours)} цаг
+          {checkNumberDigits(days)} өдөр {checkNumberDigits(hours)} цаг{" "}
           {checkNumberDigits(minutes)} минут {checkNumberDigits(seconds)} секунд
         </h1>
       );
@@ -49,7 +49,7 @@ export default function Home() {
     } else {
       return (
         <h1 className="text-center text-white text-4xl self-center">
-          {checkNumberDigits(days)} өдөр {checkNumberDigits(hours)} цаг
+          {checkNumberDigits(days)} өдөр {checkNumberDigits(hours)} цаг{" "}
           {checkNumberDigits(minutes)} минут {checkNumberDigits(seconds)} секунд
         </h1>
       );
@@ -60,7 +60,11 @@ export default function Home() {
       <meta property="og:title" content="Santa.mn" />
       <meta
         property="og:image:secure"
-        content="https://evseg.s3.ap-southeast-1.amazonaws.com/gg.png"
+        content="https://evseg.s3.ap-southeast-1.amazonaws.com/logo.png"
+      />
+      <meta
+        property="og:image"
+        content="https://evseg.s3.ap-southeast-1.amazonaws.com/logo.png"
       />
       <meta
         name="description"
